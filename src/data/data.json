@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "timestamp": 1665333789460,
+      "name": "Fallout 4",
+      "description": "Fallout 4 es un videojuego de rol de acción desarrollado por Bethesda Game Studios y distribuido por Bethesda Softworks. Es la séptima entrega de la serie Fallout. El título se anunció el 3 de junio de 2015 mediante la publicación de un tráiler en la página oficial de Bethesda. ",
+      "code": "0001",
+      "price": 2000,
+      "stock": 60
+    },
+    {
+      "id": 2,
+      "timestamp": 1665333842650,
+      "name": "The Elder Scrolls V Skyrim",
+      "description": "The Elder Scrolls V: Skyrim es un ARPG del tipo mundo abierto desarrollado por Bethesda Game Studios y publicado por Bethesda Softworks.",
+      "code": "0002",
+      "price": 1950,
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "timestamp": 1665333868483,
+      "name": "The Witcher 3 Wild Hunt",
+      "description": "The Witcher 3: Wild Hunt es un videojuego de rol desarrollado y publicado por la compañía polaca CD Projekt RED. Esta compañía es la desarrolladora mientras que la distribución corre a cargo de la Warner Bros. Interactive, en el caso de Norteamérica y Bandai Namco para Europa.",
+      "code": "0003",
+      "price": 2550,
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "timestamp": 1665333879507,
+      "name": "Fallout New Vegas",
+      "description": "Fallout: New Vegas es un videojuego de rol perteneciente a la saga Fallout, desarrollado por Obsidian Entertainment, y distribuido por Bethesda Softworks, considerado por muchos el mejor Fallout moderno, y uno de los mejores videojuegos de toda la franquicia",
+      "code": "0004",
+      "price": 1200,
+      "stock": 40
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "Nahuel",
+      "lastname": "Otero",
+      "email": "nahuelotero383@gmail.com",
+      "password": "admin",
+      "age": "20",
+      "role": "Admin"
+    }
+  ],
+
+  "cart": []
+}
