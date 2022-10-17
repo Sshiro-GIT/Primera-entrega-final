@@ -1,14 +1,16 @@
-const { users } = require("../data/data.js");
-
+const admin = true;
 const authorizer = (req, res, next) => {
-  const { id } = req.query;
-  const user = user.find((user) => user.id === id);
-  if (user) {
-    req.user = user;
+  if (admin) {
     next();
-  } else {
-    res.status(401).send('<h1 style="color: red;">UNAUTHORIZED</h1>');
+    return;
   }
+
+  res.status(404).json({
+    error: -1,
+    descripcion: `Ruta: ${req.url}`,
+    método: `${req.method}, no implementado!!!`,
+  });
+  return;
 };
 
 module.exports = authorizer;

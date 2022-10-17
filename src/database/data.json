@@ -37,18 +37,5 @@
       "stock": 40
     }
   ],
-
-  "users": [
-    {
-      "id": 1,
-      "name": "Nahuel",
-      "lastname": "Otero",
-      "email": "nahuelotero383@gmail.com",
-      "password": "admin",
-      "age": "20",
-      "role": "Admin"
-    }
-  ],
-
-  "cart": []
+  "carrito": []
 }
